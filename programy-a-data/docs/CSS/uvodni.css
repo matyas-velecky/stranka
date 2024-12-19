@@ -1,0 +1,40 @@
+/*telo stranky*/
+body{
+    font-family: comic sans ms;
+    background-image: url("../img/pnk.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*nastaveni zahlavi*/
+header{
+    background-color: rgb(140, 53, 223);
+    color:whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*nastaveni hlavni casti*/
+main{
+    width: 1200px;
+    margin:auto;
+}
+/*nastaveni flexboxu*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container div{
+    background-color:rgb(235, 192, 213);
+    padding: 20px;
+    margin: 20px;
+    flex: 25%;
+}
+
+/*responsivni design*/
+@media screen and (max-width: 1200px){
+    main{
+        width: 90%;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+}
