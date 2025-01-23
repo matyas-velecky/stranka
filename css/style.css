@@ -70,6 +70,6 @@ b{
 a{
     color: white;
 }
-footer > img, footer > p{
+footer > div{
  justify-self: center;
 }
