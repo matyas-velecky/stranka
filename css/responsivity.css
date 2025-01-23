@@ -1,12 +1,10 @@
 @media only screen and (max-width: 980px){
    body{
        width: 100%;
-       background-color: #382e49;
    }
    table{
       overflow-x:auto;
       width: 75%;
-      
    }
    tr, td{
       font-size: 50%;
