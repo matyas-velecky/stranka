@@ -2,4 +2,7 @@
    body{
        width: 100%;
    }
+   table{
+      overflow-x:auto;
+   }
 }
