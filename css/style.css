@@ -1,4 +1,4 @@
- /*telo*/
+ht /*telo*/
 body{
     background-color: #382e49;
 }
@@ -45,6 +45,7 @@ main{
  .columnsmaller {
     float: left;
     width: 10%;
+    height: 10%;
     padding: 5px;
 }
 /* obrázky vedle sebe */
