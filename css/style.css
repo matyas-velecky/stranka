@@ -1,6 +1,7 @@
 /*telo*/
 body{
     background-color: #382e49;
+    margin: 0px;
 }
 /*headline 1*/
 h1{
@@ -54,7 +55,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 200px;
 }
   
 .column {

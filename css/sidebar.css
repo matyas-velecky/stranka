@@ -60,4 +60,7 @@ div.content {
   .content {
      margin-left: 230px;
   }
+  .row{
+    margin-left: 200px;
+  }
 }
