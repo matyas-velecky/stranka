@@ -70,6 +70,6 @@ b{
 a{
     color: white;
 }
-footer{
- alighn-content: center;
+footer > img, footer > p{
+ justify-self: center;
 }
