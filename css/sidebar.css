@@ -36,7 +36,6 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 800px;
-  position: fixed;
 }
 
 @media screen and (max-width: 700px) {
