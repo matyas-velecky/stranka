@@ -1,91 +1,55 @@
-/*div container link*/
-#mySidenav a {
-    position: fixed;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-}
-/*posun do leva*/
-#mySidenav a:hover {
-    left: -1px;
-    background-color: black;
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-/*linky na záložky*/
-#HlaStr{
-    top: 20px;
-    background-color: #884d93;
-}
-#Prog {
-    top: 90px;
-    background-color: #884d93;
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
 
-#OS {
-    top: 180px;
-    background-color: #884d93;
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
-#AplSof {
-    top: 250px;
-    background-color: #884d93;
-    }
 
-#CloudRes {
-    top: 320px;
-    background-color: #884d93;
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
-#SofLic{
-    top: 380px;
-    background-color: #884d93;
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
 }
-#EmuViz{
-    top: 440px;
-    background-color: #884d93;
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
-@media only screen and (max-width: 700px){
-    #mySidenav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-    /*posun do leva*/
-    #mySidenav a:hover {
-          background-color: ##884d93;
-          color: black;
-    }
-    
-    /*linky na záložky*/
-    #HlaStr{
-        background-color: #884d93;
-    }
-    #Prog {
-        background-color: #884d93;
-    }
-    
-    #OS {
-        background-color: #884d93;
-    }
-    
-    #AplSof {
-        background-color: #884d93;
-        }
-    
-    #CloudRes {
-        background-color: #884d93;
-    }
-    #SofLic{
-        background-color: #884d93;
-    }
-    #EmuViz{
-        background-color: #884d93;
-    }
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
