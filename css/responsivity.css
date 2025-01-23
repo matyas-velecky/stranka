@@ -4,9 +4,11 @@
    }
    table{
       overflow-x:auto;
+      width: 50%;
       
    }
    tr, td{
       font-size: 50%;
    }
+   
 }
