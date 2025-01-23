@@ -42,10 +42,7 @@ main{
 }
  .columnsmaller {
     float: left;
-    width: 10%;
-    height: 10%;
     padding: 5px;
-    margin: 0px 100px
 }
 /* obrázky vedle sebe */
 .row::after {
