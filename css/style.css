@@ -28,7 +28,7 @@ main{
     column-gap: 5px;
     row-gap: 5px;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     justify-content: center;
 }
   
