@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #b677d3;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -19,13 +19,13 @@
 
 
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #884d93;
   color: white;
 }
 
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #FFFFFF;
   color: white;
 }
 
