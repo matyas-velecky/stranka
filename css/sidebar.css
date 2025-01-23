@@ -65,34 +65,27 @@
     
     /*linky na záložky*/
     #HlaStr{
-        top: 20px;
         background-color: #884d93;
     }
     #Prog {
-        top: 90px;
         background-color: #884d93;
     }
     
     #OS {
-        top: 180px;
         background-color: #884d93;
     }
     
     #AplSof {
-        top: 250px;
         background-color: #884d93;
         }
     
     #CloudRes {
-        top: 320px;
         background-color: #884d93;
     }
     #SofLic{
-        top: 380px;
         background-color: #884d93;
     }
     #EmuViz{
-        top: 440px;
         background-color: #884d93;
     }
 }
