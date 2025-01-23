@@ -8,12 +8,13 @@
   height: 100%;
   overflow: auto;
   color: white;
+  border: 2px solid white;
 }
 
 
 .sidebar a {
   display: block;
-  color: black;
+  color: white;
   padding: 16px;
   text-decoration: none;
 }
@@ -21,12 +22,13 @@
 
 .sidebar a.active {
   background-color: #884d93;
+  color: black;
 }
 
 
 .sidebar a:hover:not(.active) {
   background-color: #FFFFFF;
-  color: white;
+  color: black;
 }
 
 
