@@ -48,3 +48,51 @@
     top: 440px;
     background-color: #884d93;
 }
+@media only screen and (max-width: 700px){
+    #mySidenav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /*posun do leva*/
+    #mySidenav a:hover {
+          background-color: ##884d93;
+          color: black;
+    }
+    
+    /*linky na záložky*/
+    #HlaStr{
+        top: 20px;
+        background-color: #884d93;
+    }
+    #Prog {
+        top: 90px;
+        background-color: #884d93;
+    }
+    
+    #OS {
+        top: 180px;
+        background-color: #884d93;
+    }
+    
+    #AplSof {
+        top: 250px;
+        background-color: #884d93;
+        }
+    
+    #CloudRes {
+        top: 320px;
+        background-color: #884d93;
+    }
+    #SofLic{
+        top: 380px;
+        background-color: #884d93;
+    }
+    #EmuViz{
+        top: 440px;
+        background-color: #884d93;
+    }
+}
