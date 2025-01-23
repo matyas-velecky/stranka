@@ -4,6 +4,9 @@
    }
    table{
       overflow-x:auto;
+      
+   }
+   tr, th{
       font-size: 50%;
    }
 }
