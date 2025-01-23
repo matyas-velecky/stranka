@@ -1,22 +1,42 @@
 /*footer posun*/
-.mainfooter{
+.mainfooter {
     margin: 500px 0px 0px 0px;
     padding: 0px 15px 34px 15px;
     background-color: #884d93;
 }
 /*tabulka*/
-table, th, td {
+table,
+th,
+td {
     border: 3px solid rgb(197, 140, 194);
     border-collapse: collapse;
     align-items: center;
     color: white;
     font-size: 120%;
 }
-table{
-    margin-left: auto;
-    margin-right: auto;
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
-#space{
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#space {
     background-color: #884d93;
+}
+
+@media screen and (max-width: 700px) {
+    table {
+        margin-top: 20px;
+    }
 }

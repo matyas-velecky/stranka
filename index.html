@@ -1,74 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Main Page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/sidebar.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/responsivity.css">
-</head>
-<body>
-<header>
-    <h1>Toto je hlavní stránka</h1>
-    <hr>
-    <div class="sidebar">
-        <a href="index.html" class="active">Hlavní stánka</a>
-        <a href="a/index.html" >Programové a datové soubory</a>
-        <a href="b/index.html">Operační systémy</a>
-        <a href="c/index.html">Aplikační Software</a>
-        <a href="d/index.html">Cloudová řešení</a>
-        <a href="e/index.html" >Softwareové licence</a>
-        <a href="f/index.html">Emulace a vizualizace</a>
-      </div>
-</header>
-<main>
-    <div  class="content">
-        <table>
-           <tr>
-            <th>Programové a datové soubory</th>
-            <th>Operační systémy</th>
-            <th>Aplikační Software</th>
-            <th>Instalace Programů</th>
-            <th>Softwareové licence</th>
-            <th>Emulace a vizualizace</th>
-           </tr>
-           <tr>
-            <td>Soubory</td>
-            <td>Úvod</td>
-            <td>Úvod</td>
-            <td>Cloud Computing</td>
-            <td>Software</td>
-            <td>Emulátor</td>
-           </tr>
-           <tr>
-            <td>Cesty</td>
-            <td>Historie</td>
-            <td>Rozdělení programů</td>
-            <td>Veřejný cloud</td>
-            <td>Pirátství</td>
-            <td>Vizualizace</td>
-           </tr>
-           <tr>
-            <td>Knihovny</td>
-            <td>Rozdělení</td>
-            <td id="space"></td>
-            <td>Distibuční modely</td>
-            <td>Ochrana před Pirátství</td>
-            <td>Virtuální stroje</td>
-           </tr>
-        </table>
-    </div>
-</main>
-<footer class="mainfooter">
-    <hr>
-     <div>
-        <p>Copyright 2024 - Matyáš Velecký | IT1</p>
-        <p><a href="https://www.sspu-opava.cz/cs/"><img src = "img/skola-logo.png" alt="školní logo"></a></p>
-    </div>
-</footer>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/sidebar.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/responsivity.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Toto je hlavní stránka</h1>
+            <hr />
+            <div class="sidebar">
+                <a href="index.html" class="active">Hlavní stánka</a>
+                <a href="a/index.html">Programové a datové soubory</a>
+                <a href="b/index.html">Operační systémy</a>
+                <a href="c/index.html">Aplikační Software</a>
+                <a href="d/index.html">Cloudová řešení</a>
+                <a href="e/index.html">Softwareové licence</a>
+                <a href="f/index.html">Emulace a vizualizace</a>
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <!-- Programové a datové soubory -->
+                <table>
+                    <tr>
+                        <th>Programové a datové soubory</th>
+                    </tr>
+                    <tr>
+                        <td>Soubory</td>
+                    </tr>
+                    <tr>
+                        <td>Cesty</td>
+                    </tr>
+                    <tr>
+                        <td>Knihovny</td>
+                    </tr>
+                </table>
+
+                <!-- Operační systémy -->
+                <table>
+                    <tr>
+                        <th>Operační systémy</th>
+                    </tr>
+                    <tr>
+                        <td>Úvod</td>
+                    </tr>
+                    <tr>
+                        <td>Historie</td>
+                    </tr>
+                    <tr>
+                        <td>Rozdělení</td>
+                    </tr>
+                </table>
+
+                <!-- Aplikační software -->
+                <table>
+                    <tr>
+                        <th>Aplikační software</th>
+                    </tr>
+                    <tr>
+                        <td>Úvod</td>
+                    </tr>
+                    <tr>
+                        <td>Rozdělení programů</td>
+                    </tr>
+                </table>
+
+                <!-- Instalace programů -->
+                <table>
+                    <tr>
+                        <th>Instalace Programů</th>
+                    </tr>
+                    <tr>
+                        <td>Cloud Computing</td>
+                    </tr>
+                    <tr>
+                        <td>Veřejný cloud</td>
+                    </tr>
+                    <tr>
+                        <td>Distribuční modely</td>
+                    </tr>
+                </table>
+
+                <!-- Softwareové licence -->
+                <table>
+                    <tr>
+                        <th>Softwareové licence</th>
+                    </tr>
+                    <tr>
+                        <td>Software</td>
+                    </tr>
+                    <tr>
+                        <td>Pirátství</td>
+                    </tr>
+                    <tr>
+                        <td>Ochrana před pirátstvím</td>
+                    </tr>
+                </table>
+
+                <!-- Emulace a vizualizace -->
+                <table>
+                    <tr>
+                        <th>Emulace a vizualizace</th>
+                    </tr>
+                    <tr>
+                        <td>Emulátor</td>
+                    </tr>
+                    <tr>
+                        <td>Vizualizace</td>
+                    </tr>
+                    <tr>
+                        <td>Virtuální stroje</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer class="mainfooter">
+            <hr />
+            <div>
+                <p>Copyright 2024 - Matyáš Velecký | IT1</p>
+                <p>
+                    <a href="https://www.sspu-opava.cz/cs/"
+                        ><img src="img/skola-logo.png" alt="školní logo"
+                    /></a>
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

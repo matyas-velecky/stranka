@@ -1,101 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>OS</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/sidebar.css">
-    <link rel="stylesheet" href="../css/responsivity.css">
-</head>
-<body>
-    <header>
-        <h1>Operační systémy</h1>
-        <hr>
-        <div class="sidebar">
-            <a href="../index.html">Hlavní stánka</a>
-            <a href="../a/index.html">Programové a datové soubory</a>
-            <a href="index.html" class="active">Operační systémy</a>
-            <a href="../c/index.html">Aplikační Software</a>
-            <a href="../d/index.html">Cloudová řešení</a>
-            <a href="../e/index.html">Softwareové licence</a>
-            <a href="../f/index.html">Emulace a vizualizace</a>
-        </div>
-    </header>
-    <main>
-        <div class="grid-container">
-            <div class="content">
-                <div>
-                    <h2>Úvod</h2>
-                    <p> Programové vybavení (software) je podmínkou využití technického vybavení
-                        (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro
-                        konkrétní hardware. V okamžiku, kdy počítače začaly být produkovány ve větších sériích,
-                        objevila se i potřeba vývoje speciálních systémových programů,
-                        které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh
-                        aplikací, tj. programů určených pro konkrétní účely.
-                        Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy
-                        (OS - Operation System). Jejich nejdůležitější funkcí je zajištění řízení hardware.
-                        To má na starosti jádro systému, které tvoří subsystémy pro správu procesoru, paměti, diskových
-                        médií a dalších zařízení. Jádro pro své operace vyžaduje instalaci
-                        ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje
-                        technické vybavení běžícím procesům.
-                    </p>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>OS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/sidebar.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Operační systémy</h1>
+            <hr />
+            <div class="sidebar">
+                <a href="../index.html">Hlavní stánka</a>
+                <a href="../a/index.html">Programové a datové soubory</a>
+                <a href="index.html" class="active">Operační systémy</a>
+                <a href="../c/index.html">Aplikační Software</a>
+                <a href="../d/index.html">Cloudová řešení</a>
+                <a href="../e/index.html">Softwareové licence</a>
+                <a href="../f/index.html">Emulace a vizualizace</a>
+            </div>
+        </header>
+        <main>
+            <div class="grid-container">
+                <div class="content">
+                    <div>
+                        <h2>Úvod</h2>
+                        <p>
+                            Programové vybavení (software) je podmínkou využití
+                            technického vybavení (hardware). V raných dobách
+                            počítačové éry byly programy vytvářeny vždy pro
+                            konkrétní hardware. V okamžiku, kdy počítače začaly
+                            být produkovány ve větších sériích, objevila se i
+                            potřeba vývoje speciálních systémových programů,
+                            které by obstaraly základní operace s hardwarem a
+                            nabídly prostředí pro běh aplikací, tj. programů
+                            určených pro konkrétní účely. Základním programovým
+                            vybavením počítačů (a jim podobných zařízení) jsou
+                            operační systémy (OS - Operation System). Jejich
+                            nejdůležitější funkcí je zajištění řízení hardware.
+                            To má na starosti jádro systému, které tvoří
+                            subsystémy pro správu procesoru, paměti, diskových
+                            médií a dalších zařízení. Jádro pro své operace
+                            vyžaduje instalaci ovladačů jednotlivých zařízení
+                            (drivers) a s jejich pomocí zpřístupňuje technické
+                            vybavení běžícím procesům.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Nezbytnou součástí operačních systémů je aplikační
+                            rozhraní (API - Application Programming Interface),
+                            které nabízí programátorům prostředky pro vývoj
+                            aplikací pro daný systém. Uživatelské rozhraní
+                            slouží k ovládání OS a k spouštění aplikací. Zatímco
+                            starší OS se ovládaly častěji prostřednictvím
+                            příkazového řádku (CLI - Command Line Interface),
+                            moderní systémy poskytují grafické uživatelské
+                            rozhraní (GUI - Graphic User Interface) založené na
+                            oknech a grafických prvcích.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Historie</h2>
+                        <p>
+                            Na počátku vývoje moderních OS byl víceúlohový a
+                            víceuživatelský systém UNIX, který se od 70. let
+                            používal v sálových počítačích i minipočítačích.
+                            Jeho principy využily i další OS. V 80. letech
+                            minulého století si vzájemně konkurovaly systémy
+                            firmy Microsoft (MS DOS), instalované na počítačích
+                            IBM PC, a firmy Apple (Mac OS), která rozvinula
+                            myšlenky vývojářů společnosti Xerox a začala jako
+                            první používat grafické uživatelské rozhraní. To se
+                            stalo také základem MS Windows, jenž hrál prim
+                            především na přelomu tisíciletí. V té době už
+                            získával stále větší popularitu volně šiřitelný
+                            systém Linux, pojmenovaný podle svého tvůrce Linuse
+                            Torvaldse a staršího vzoru UNIXu. Zatímco operační
+                            systémy Windows dominují především na osobních
+                            počítačích v domácnostech i kancelářích, různé
+                            linuxové distribuce jsou velmi často instalovány na
+                            síťových serverech.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Rozdělení</h2>
+                        <p>
+                            Současné OS rozdělujeme nejčastěji podle typů
+                            zařízení, pro která jsou určeny. Existují systémy
+                            pro síťové servery (např. MS Windows 2012 Server,
+                            Linux, Unix), pro běžné osobní počítače - desktopy,
+                            notebooky, netbooky (např. MS Windows, Linux Ubuntu,
+                            OS X), pro mobilní zařízení (Android, Symbian,
+                            Windows Phone, iOS) i speciální RTOS (Real-Time
+                            Operating System - systémy reálného času), které
+                            zajišťují provoz „chytrých“ zařízení, jakými jsou
+                            robotické kamery využívané pro sportovní přenosy,
+                            měřící přístroje na orbitálních stanicích nebo
+                            jednotky pro řízení různých průmyslových procesů.
+                            Zatímco u desktopového systému je možné pozdržet
+                            dokončení některých operací a provádět paralelně
+                            jiné operace, v případě RTOS je nezbytné provádět
+                            operace bez prodlevy a s vysokou spolehlivostí v
+                            reálném čase.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p>
-                        Nezbytnou součástí operačních systémů je aplikační rozhraní (API
-                        - Application Programming Interface), které nabízí programátorům
-                        prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhraní slouží k ovládání OS a k spouštění aplikací.
-                        Zatímco starší OS se ovládaly častěji prostřednictvím příkazového řádku (CLI - Command
-                        Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface)
-                         založené na oknech a grafických
-                        prvcích.
-                    </p>
-                </div>
-                <div>
-                    <h2>Historie</h2>
-                    <p>
-                        Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém
-                        UNIX, který se od 70. let používal v sálových počítačích i minipočítačích.
-                        Jeho principy využily i další OS. V 80. letech minulého století si vzájemně
-                        konkurovaly systémy firmy Microsoft (MS DOS), instalované na počítačích
-                        IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů společnosti Xerox
-                        a začala jako první používat grafické uživatelské rozhraní. To
-                        se stalo také základem MS Windows, jenž hrál prim především na přelomu
-                        tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém
-                        Linux, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru
-                        UNIXu. Zatímco operační systémy Windows dominují především na osobních počítačích v domácnostech i kancelářích,
-                        různé linuxové distribuce jsou velmi často instalovány na síťových serverech.
-                    </p>
-                </div>
-                <div>
-                    <h2>Rozdělení</h2>
-                    <p>Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny. Existují systémy pro síťové servery
-                         (např. MS Windows 2012 Server, Linux, Unix), pro běžné osobní počítače - desktopy, notebooky, netbooky (např.
-                        MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian,
-                        Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systémy reálného času),
-                        které zajišťují provoz „chytrých“ zařízení, jakými jsou robotické kamery využívané pro sportovní přenosy,
-                        měřící přístroje na orbitálních stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco
-                        u desktopového systému je možné pozdržet dokončení některých operací a provádět paralelně jiné operace,
-                         v případě RTOS je nezbytné provádět operace bez prodlevy a s vysokou spolehlivostí v reálném čase.
-                    </p>
+                <div class="row">
+                    <div class="columnsmaller">
+                        <a href="../redirection/index.html"
+                            ><img
+                                src="../img/linux.png"
+                                alt="linux"
+                                width="370"
+                                height="197"
+                        /></a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="columnsmaller">
-                    <a href="../redirection/index.html"><img src="../img/linux.png" alt="linux" width="370" height="197" ></a>
-                </div>
+        </main>
+        <footer>
+            <hr />
+            <div>
+                <p>Copyright 2024 - Matyáš Velecký | IT1</p>
+                <p>
+                    <a href="https://www.sspu-opava.cz/cs/"
+                        ><img src="../img/skola-logo.png" alt="školní logo"
+                    /></a>
+                </p>
             </div>
-        </div>
-    </main>
-    <footer>
-        <hr>
-        <div>
-            <p>Copyright 2024 - Matyáš Velecký | IT1</p>
-            <p><a href="https://www.sspu-opava.cz/cs/"><img src = "../img/skola-logo.png" alt="školní logo"></a></p>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
