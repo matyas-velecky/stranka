@@ -33,7 +33,6 @@
 
 
 div.content {
-  margin-left: 200px;
   padding: 1px 16px;
   height: fit-content;
 }
@@ -45,7 +44,7 @@ div.content {
     position: relative;
   }
   .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  width: 90%;
 }
 
 
