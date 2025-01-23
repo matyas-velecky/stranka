@@ -1,1 +1,1 @@
-# stranka
+# Stranka
