@@ -12,7 +12,7 @@
 }
 /*posun do leva*/
 #mySidenav a:hover {
-    left: 0px;
+    left: -1px;
     background-color: black;
 }
 
