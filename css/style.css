@@ -60,6 +60,10 @@ main{
 .column {
     flex: 33.33%;
     padding: 5px;
+    transition: width 2s, height 2s;
+}
+.column:hover{
+    flex: 50%;
 }
 footer{
     padding: 0px 15px 34px 15px;
