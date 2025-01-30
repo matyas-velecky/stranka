@@ -62,8 +62,8 @@ main{
     padding: 5px;
 }
 .column>img:hover{
-    width: 400;
-    height: 381;
+    width: 400px;
+    height: 381px;
 }
 footer{
     padding: 0px 15px 34px 15px;
