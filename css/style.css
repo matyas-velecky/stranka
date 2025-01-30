@@ -62,8 +62,9 @@ main{
     padding: 5px;
 }
 img:hover{
-    width: 400px;
-    height: 381px;
+    width: 40%;
+    height: 40%;
+    transition: width 1s, height 1s;
 }
 footer{
     padding: 0px 15px 34px 15px;
