@@ -61,7 +61,7 @@ main{
     flex: 33.33%;
     padding: 5px;
 }
-.column>img:hover{
+img:hover{
     width: 400px;
     height: 381px;
 }
